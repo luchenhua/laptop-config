@@ -24,11 +24,9 @@ docker pull mysql:latest;
 
 docker pull wurstmeister/kafka:latest;
 
-docker pull elasticsearch;
-docker pull logstash;
-docker pull kibana;
-
-docker pull solr:alpine;
+#docker pull elasticsearch;
+#docker pull logstash;
+#docker pull kibana;
 
 docker pull sonarqube:latest;
 
@@ -37,4 +35,4 @@ docker pull swaggerapi/swagger-generator:latest;
 docker pull swaggerapi/swagger-ui:latest;
 
 # remove trash images.
-docker rmi $(docker images -a | awk '$2~/<none>/{print $3}');
+docker rmi $(docker images | awk '$2~/<none>/{print $3}');
