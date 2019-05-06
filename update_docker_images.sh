@@ -5,7 +5,8 @@ docker pull alpine:latest;
 
 docker pull nginx:alpine;
 
-docker pull quay.io/coreos/etcd:latest;
+# docker pull quay.io/coreos/etcd:latest;
+docker pull gcr.io/etcd-development/etcd:latest;
 docker pull consul:latest;
 docker pull zookeeper:latest;
 
@@ -24,9 +25,9 @@ docker pull mysql:latest;
 
 docker pull wurstmeister/kafka:latest;
 
-#docker pull elasticsearch;
-#docker pull logstash;
-#docker pull kibana;
+# docker pull elasticsearch;
+# docker pull logstash;
+# docker pull kibana;
 
 docker pull sonarqube:latest;
 
