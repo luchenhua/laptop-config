@@ -25,7 +25,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
 # Load the theme.
-antigen theme simple
+antigen theme dracula/zsh dracula 
 
 # Tell Antigen that you're done.
 antigen apply
@@ -37,8 +37,4 @@ export HOMEBREW_GITHUB_API_TOKEN="7c988828bd39e6898b6760dd5b64d70b667090ef"
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias ping="prettyping --nolegend"
 
-export GO111MODULE=on
-export GOPROXY=https://goproxy.io
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:/usr/local/opt/ruby/bin
+export PATH="/usr/local/opt/ruby/bin:$PATH"
