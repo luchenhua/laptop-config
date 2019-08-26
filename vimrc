@@ -22,7 +22,6 @@ set encoding=utf-8
 
 """ Plugins
 call plug#begin()
-" Plug 'NLKNguyen/papercolor-theme'
 Plug 'python-mode/python-mode'
 Plug 'fatih/vim-go', {'do' : ':GoUpdateBinaries'}
 Plug 'vim-syntastic/syntastic'
@@ -47,21 +46,15 @@ Plug 'maralla/vim-toml-enhance', {'depends' : 'cespare/vim-toml'}
 Plug 'pangloss/vim-javascript'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
-Plug 'dracula/vim', {'as' : 'dracula'}
+Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 
-""" Papercolor theme 
-" set background=dark
-" colorscheme PaperColor
-" let g:airline_theme='papercolor'
+""" OneDark theme
+colorscheme onedark
+let g:airline_theme='onedark'
 
-""" Dracula theme
-let g:dracula_italic = 0
-colorscheme dracula
-let g:airline_theme='dracula'
-
-set autoindent
 """ Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
