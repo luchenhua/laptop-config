@@ -9,10 +9,10 @@ antigen bundle git
 antigen bundle git-flow
 antigen bundle github
 antigen bundle git-hubflow
-antigen bundle gitignore 
+antigen bundle gitignore
 antigen bundle go
-antigen bundle macos 
-antigen bundle tmux 
+antigen bundle macos
+antigen bundle tmux
 antigen bundle kubectl
 
 # Syntax highlighting bundle.
@@ -39,4 +39,3 @@ alias ping="prettyping --nolegend"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export LC_ALL=en_US.UTF-8
-

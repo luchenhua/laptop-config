@@ -79,7 +79,7 @@ nmap <F8> :TagbarToggle<CR>    " trigger with F8
 let g:deoplete#enable_at_startup = 1
 
 
-" Deoplete-go 
+" Deoplete-go
 let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 
