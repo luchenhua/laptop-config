@@ -4,28 +4,34 @@
 # - base images -
 docker pull alpine:latest;
 docker pull gcr.io/distroless/static:latest;
+docker pull gcr.io/distroless/static:debug;
+# docker pull gcr.io/distroless/static:debug-nonroot;
+# docker pull gcr.io/distroless/static:nonroot;
 docker pull gcr.io/distroless/base:latest;
+docker pull gcr.io/distroless/base:debug;
+# docker pull gcr.io/distroless/base:debug-nonroot;
+# docker pull gcr.io/distroless/base:nonroot;
 docker pull gcr.io/distroless/java:11;
-# docker pull gcr.io/distroless/java:8;
+docker pull gcr.io/distroless/java:11-debug;
 
 # - service discovery -
 docker pull gcr.io/etcd-development/etcd:latest;
-# docker pull consul:latest;
-# docker pull zookeeper:latest;
+docker pull consul:latest;
+docker pull zookeeper:latest;
 
 # - programming language compiler
 docker pull golang:1.13;
 docker pull maven:3.6-jdk-11;
 
 # - database -
-docker pull postgres:11;
-docker pull postgres:9;
+docker pull postgres:12;
 docker pull redis:5;
-# docker pull mongo:latest;
-# docker pull mysql:latest;
+docker pull mongo:4;
+docker pull mysql:8;
 
 # - message queue -
 docker pull wurstmeister/kafka:latest;
+docker pull bitnami/kafka:latest;
 
 # - source code check -
 docker pull sonarqube:latest;
@@ -44,10 +50,16 @@ docker pull registry:latest;
 
 # - system tracing -
 docker pull jaegertracing/all-in-one:latest;
+docker pull prom/prometheus:latest;
+docker pull grafana/grafana:latest;
+
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.0;
+docker pull docker.elastic.co/kibana/kibana:7.5.0;
+docker pull docker.elastic.co/logstash/logstash:7.5.0;
+docker pull docker.elastic.co/beats/filebeat:7.5.0;
 
 # - python data science -
 # docker pull continuumio/anaconda3:latest;
-
 
 # remove trash images.
 docker rmi $(docker images -a | awk '$2~/<none>/{print $3}');
