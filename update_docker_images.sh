@@ -2,17 +2,10 @@
 
 # download & update all the images
 # - base images -
-docker pull alpine:latest;
+# docker pull alpine:latest;
 docker pull gcr.io/distroless/static:latest;
-docker pull gcr.io/distroless/static:debug;
-# docker pull gcr.io/distroless/static:debug-nonroot;
-# docker pull gcr.io/distroless/static:nonroot;
 docker pull gcr.io/distroless/base:latest;
-docker pull gcr.io/distroless/base:debug;
-# docker pull gcr.io/distroless/base:debug-nonroot;
-# docker pull gcr.io/distroless/base:nonroot;
 docker pull gcr.io/distroless/java:11;
-docker pull gcr.io/distroless/java:11-debug;
 
 # - service discovery -
 docker pull gcr.io/etcd-development/etcd:latest;
@@ -30,7 +23,6 @@ docker pull mongo:4;
 docker pull mysql:8;
 
 # - message queue -
-docker pull wurstmeister/kafka:latest;
 docker pull bitnami/kafka:latest;
 
 # - source code check -
@@ -48,7 +40,7 @@ docker pull anchore/anchore-engine:latest;
 # - docker registry server -
 docker pull registry:latest;
 
-# - system tracing -
+# - system tracing & monitoring -
 docker pull jaegertracing/all-in-one:latest;
 docker pull prom/prometheus:latest;
 docker pull grafana/grafana:latest;
