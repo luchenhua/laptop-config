@@ -3,12 +3,12 @@
 # download & update all the images
 # --- base images ---
 # docker pull alpine:latest;
-docker pull gcr.io/distroless/static:latest;
-docker pull gcr.io/distroless/base:latest;
-docker pull gcr.io/distroless/java:11;
+docker pull gcr.azk8s.cn/distroless/static:latest;
+docker pull gcr.azk8s.cn/distroless/base:latest;
+docker pull gcr.azk8s.cn/distroless/java:11;
 
 # --- service discovery ---
-docker pull gcr.io/etcd-development/etcd:latest;
+docker pull gcr.azk8s.cn/etcd-development/etcd:latest;
 docker pull consul:latest;
 docker pull zookeeper:latest;
 
@@ -45,10 +45,10 @@ docker pull jaegertracing/all-in-one:latest;
 docker pull prom/prometheus:latest;
 docker pull grafana/grafana:latest;
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.0;
-docker pull docker.elastic.co/kibana/kibana:7.5.0;
-docker pull docker.elastic.co/logstash/logstash:7.5.0;
-docker pull docker.elastic.co/beats/filebeat:7.5.0;
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
+docker pull docker.elastic.co/kibana/kibana:7.5.1;
+docker pull docker.elastic.co/logstash/logstash:7.5.1;
+docker pull docker.elastic.co/beats/filebeat:7.5.1;
 
 # --- python data science ---
 # docker pull continuumio/anaconda3:latest;
