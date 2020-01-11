@@ -10,6 +10,24 @@
 
 ### Homebrew Mirrors Setup for CN ###
 
+**TL;DR:**
+
+Change to use USTC mirror:
+
+```bash
+./brew_ustc.sh
+```
+
+Reset to official address:
+
+```bash
+./brew_origin.sh
+```
+
+<details>
+<summary> Details </summary>
+<pre>
+
 #### Homebrew - Brew ####
 
 Change to use USTC mirror:
@@ -73,6 +91,9 @@ Reset to official address:
 cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask;
 git remote set-url origin https://github.com/Homebrew/homebrew-cask;
 ```
+
+</pre>
+</details>
 
 ### Common Tools Installation ###
 
