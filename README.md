@@ -1,74 +1,125 @@
-# Mac OS 开发环境搭建 #
+# Setup develop environment on MacOS #
 
 ## Homebrew ##
 
-### Homebrew 源代码仓库 ###
+### Homebrew Installation ###
 
-替换USTC镜像：
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Homebrew Mirrors Setup ###
+
+#### Homebrew - Brew ####
+
+Change to use USTC mirror:
 
 ```bash
 cd "$(brew --repo)"
 git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
 ```
 
-重置为官方地址：
+Reset to official address:
 
 ```bash
 cd "$(brew --repo)"
 git remote set-url origin https://github.com/Homebrew/brew.git
 ```
 
-### Homebrew 核心软件仓库 ###
+#### Homebrew - Core ####
 
-替换 USTC 镜像：
+Change to use USTC mirror:
 
 ```bash
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
 ```
 
-重置为官方地址：
+Reset to official address:
 
 ```bash
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin https://github.com/Homebrew/homebrew-core
 ```
 
-### Homebrew 预编译二进制软件包 ###
+#### Homebrew - Bottle ####
 
-对于 bash 用户：
+For BASH users:
 
 ```bash
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-对于 zsh 用户：
+For ZSH users:
 
-```bash
+```zsh
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### Homebrew Cask 软件仓库，提供 macOS 应用和大型二进制文件 ###
+#### Homebrew - Cask ####
 
-替换为 USTC 镜像：
+Change to use USTC mirror:
 
 ```bash
 cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 ```
 
-重置为官方地址：
+Reset to official address:
 
 ```bash
 cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
 git remote set-url origin https://github.com/Homebrew/homebrew-cask
 ```
 
+### Common Tools Installation ###
+
+```bash
+brew install antigen;
+brew install bat;
+brew install curl;
+brew install diff-so-fancy;
+brew install git;
+brew install git-flow;
+brew install go;
+brew install golangci-lint;
+brew install google-java-format;
+brew install gradle;
+brew install grpc;
+brew install htop;
+brew install k6;
+brew install lazydocker;
+brew install lua;
+brew install maven;
+brew install ncdu;
+brew install openjdk;
+brew install perl;
+brew install prettyping;
+brew install protobuf;
+brew install python;
+brew install ruby;
+brew install tldr;
+brew install tree;
+brew install vim;
+brew install webp;
+brew install wget;
+brew install zsh;
+brew cask install iterm2;
+
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk;
+```
+
 ## Docker ##
 
-在 Preference 中的 Daemon 选项中添加如下 Mirror 服务器地址：
+### Docker Installation ###
+
+<https://download.docker.com/mac/stable/Docker.dmg>
+
+### Docker Mirrors Setup ###
+
+Preference -> Daemon -> Registry Mirrors
 
 ```json
 {
