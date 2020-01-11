@@ -5,25 +5,25 @@
 ### Homebrew Installation ###
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 ```
 
-### Homebrew Mirrors Setup ###
+### Homebrew Mirrors Setup for CN ###
 
 #### Homebrew - Brew ####
 
 Change to use USTC mirror:
 
 ```bash
-cd "$(brew --repo)"
-git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+cd "$(brew --repo)";
+git remote set-url origin https://mirrors.ustc.edu.cn/brew.git;
 ```
 
 Reset to official address:
 
 ```bash
-cd "$(brew --repo)"
-git remote set-url origin https://github.com/Homebrew/brew.git
+cd "$(brew --repo)";
+git remote set-url origin https://github.com/Homebrew/brew.git;
 ```
 
 #### Homebrew - Core ####
@@ -31,15 +31,15 @@ git remote set-url origin https://github.com/Homebrew/brew.git
 Change to use USTC mirror:
 
 ```bash
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core";
+git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git;
 ```
 
 Reset to official address:
 
 ```bash
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://github.com/Homebrew/homebrew-core
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core";
+git remote set-url origin https://github.com/Homebrew/homebrew-core;
 ```
 
 #### Homebrew - Bottle ####
@@ -47,15 +47,15 @@ git remote set-url origin https://github.com/Homebrew/homebrew-core
 For BASH users:
 
 ```bash
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
-source ~/.bash_profile
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile;
+source ~/.bash_profile;
 ```
 
 For ZSH users:
 
 ```zsh
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
-source ~/.zshrc
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc;
+source ~/.zshrc;
 ```
 
 #### Homebrew - Cask ####
@@ -63,15 +63,15 @@ source ~/.zshrc
 Change to use USTC mirror:
 
 ```bash
-cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
-git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
+cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask;
+git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git;
 ```
 
 Reset to official address:
 
 ```bash
-cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
-git remote set-url origin https://github.com/Homebrew/homebrew-cask
+cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask;
+git remote set-url origin https://github.com/Homebrew/homebrew-cask;
 ```
 
 ### Common Tools Installation ###
@@ -117,7 +117,7 @@ sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtua
 
 <https://download.docker.com/mac/stable/Docker.dmg>
 
-### Docker Mirrors Setup ###
+### Docker Mirrors Setup for CN ###
 
 Preference -> Daemon -> Registry Mirrors
 
