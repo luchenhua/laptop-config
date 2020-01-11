@@ -10,6 +10,22 @@
 
 ### Homebrew Mirrors Setup for CN ###
 
+**TL;DR:**
+
+Change to use USTC mirror:
+
+```bash
+./brew_ustc.sh
+```
+
+Reset to official address:
+
+```bash
+./brew_origin.sh
+```
+
+<details>
+
 #### Homebrew - Brew ####
 
 Change to use USTC mirror:
@@ -74,7 +90,17 @@ cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask;
 git remote set-url origin https://github.com/Homebrew/homebrew-cask;
 ```
 
+</details>
+
 ### Common Tools Installation ###
+
+**TL;DR:**
+
+```bash
+./brew_tools.sh
+```
+
+<details>
 
 ```bash
 brew install antigen;
@@ -111,6 +137,8 @@ brew cask install iterm2;
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk;
 ```
 
+</details>
+
 ## Docker ##
 
 ### Docker Installation ###
@@ -128,4 +156,12 @@ Preference -> Daemon -> Registry Mirrors
     "https://dockerhub.azk8s.cn"
   ]
 }
+```
+
+### Docker Common Images ###
+
+**TL;DR:**
+
+```bash
+./update_docker_images.sh
 ```
