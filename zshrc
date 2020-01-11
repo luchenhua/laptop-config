@@ -36,6 +36,5 @@ source ~/.profile
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias ping="prettyping --nolegend"
 
-export PATH="/usr/local/opt/ruby/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
