@@ -157,3 +157,11 @@ Preference -> Daemon -> Registry Mirrors
   ]
 }
 ```
+
+### Docker Common Images ###
+
+**TL;DR:**
+
+```bash
+./update_docker_images.sh
+```
