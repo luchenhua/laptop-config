@@ -25,8 +25,6 @@ Reset to official address:
 ```
 
 <details>
-<summary> Details </summary>
-<pre>
 
 #### Homebrew - Brew ####
 
@@ -92,10 +90,17 @@ cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask;
 git remote set-url origin https://github.com/Homebrew/homebrew-cask;
 ```
 
-</pre>
 </details>
 
 ### Common Tools Installation ###
+
+**TL;DR:**
+
+```bash
+./brew_tools.sh
+```
+
+<details>
 
 ```bash
 brew install antigen;
@@ -131,6 +136,8 @@ brew cask install iterm2;
 
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk;
 ```
+
+</details>
 
 ## Docker ##
 
