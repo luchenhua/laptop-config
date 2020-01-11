@@ -32,10 +32,10 @@ antigen apply
 
 # Personal path settings.
 source ~/.profile
-# export HOMEBREW_GITHUB_API_TOKEN="7c988828bd39e6898b6760dd5b64d70b667090ef"
 
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 alias ping="prettyping --nolegend"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export LC_ALL=en_US.UTF-8
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles

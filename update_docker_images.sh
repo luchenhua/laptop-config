@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # download & update all the images
+# (use Azure as Google Cloud Registory's proxy)
 # --- base images ---
-# docker pull alpine:latest;
 docker pull gcr.azk8s.cn/distroless/static:latest;
 docker pull gcr.azk8s.cn/distroless/base:latest;
 docker pull gcr.azk8s.cn/distroless/java:11;
