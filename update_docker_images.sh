@@ -3,9 +3,9 @@
 # download & update all the images
 # (use Azure as Google Cloud Registory's proxy)
 # --- base images ---
-docker pull gcr.azk8s.cn/distroless/static:latest;
-docker pull gcr.azk8s.cn/distroless/base:latest;
-docker pull gcr.azk8s.cn/distroless/java:11;
+docker pull gcr.azk8s.cn/distroless/static-debian10:nonroot;
+docker pull gcr.azk8s.cn/distroless/base-debian10:nonroot;
+docker pull gcr.azk8s.cn/distroless/java-debian10:11;
 
 # --- service discovery ---
 docker pull gcr.azk8s.cn/etcd-development/etcd:latest;
@@ -13,7 +13,7 @@ docker pull consul:latest;
 docker pull zookeeper:latest;
 
 # --- programming language compiler ---
-docker pull golang:1.13;
+docker pull golang:1.14;
 docker pull maven:3.6-jdk-11;
 
 # --- database ---
@@ -35,20 +35,20 @@ docker pull adminer:latest;
 docker pull swaggerapi/swagger-editor:latest;
 
 # --- docker security check ---
-docker pull anchore/anchore-engine:latest;
+# docker pull anchore/anchore-engine:latest;
 
 # --- docker registry server ---
-docker pull registry:latest;
+# docker pull registry:latest;
 
 # --- system tracing & monitoring ---
 docker pull jaegertracing/all-in-one:latest;
 docker pull prom/prometheus:latest;
 docker pull grafana/grafana:latest;
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
-docker pull docker.elastic.co/kibana/kibana:7.5.1;
-docker pull docker.elastic.co/logstash/logstash:7.5.1;
-docker pull docker.elastic.co/beats/filebeat:7.5.1;
+# docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
+# docker pull docker.elastic.co/kibana/kibana:7.5.1;
+# docker pull docker.elastic.co/logstash/logstash:7.5.1;
+# docker pull docker.elastic.co/beats/filebeat:7.5.1;
 
 # --- python data science ---
 # docker pull continuumio/anaconda3:latest;
