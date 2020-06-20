@@ -3,22 +3,17 @@
 # download & update all the images
 # (use Azure as Google Cloud Registory's proxy)
 # --- base images ---
-# docker pull gcr.io/distroless/static-debian10:nonroot;
 docker pull gcr.io/distroless/static-debian10:latest;
 docker pull gcr.io/distroless/java-debian10:11;
-# docker pull gcr.azk8s.cn/distroless/static-debian10:nonroot;
-# docker pull gcr.azk8s.cn/distroless/static-debian10:latest;
-# docker pull gcr.azk8s.cn/distroless/java-debian10:11;
 
 # --- service discovery ---
 docker pull gcr.io/etcd-development/etcd:latest;
-# docker pull gcr.azk8s.cn/etcd-development/etcd:latest;
 docker pull consul:latest;
 docker pull zookeeper:latest;
 
 # --- programming language compiler ---
 docker pull golang:1.14;
-# docker pull maven:3-openjdk-14;
+docker pull maven:3-openjdk-11;
 
 # --- database ---
 docker pull postgres:12;

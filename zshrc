@@ -1,5 +1,5 @@
 # Install the antigen which is downloaded from GitHub.
-source /usr/local/share/antigen/antigen.zsh
+source ~/dev/repo/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
