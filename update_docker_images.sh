@@ -12,7 +12,7 @@ docker pull consul:latest;
 docker pull zookeeper:latest;
 
 # --- programming language compiler ---
-docker pull golang:1.14;
+docker pull golang:1.15;
 docker pull maven:3-openjdk-11;
 
 # --- database ---
@@ -22,7 +22,7 @@ docker pull mongo:4;
 docker pull mysql:8;
 
 # --- message queue ---
-docker pull bitnami/kafka:latest;
+docker pull wurstmeister/kafka:latest;
 
 # --- source code check ---
 docker pull sonarqube:latest;
