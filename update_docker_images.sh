@@ -20,6 +20,7 @@ docker pull postgres:12;
 docker pull redis:6;
 docker pull mongo:4;
 docker pull mysql:8;
+docker pull influxdb:1.8;
 
 # --- message queue ---
 docker pull wurstmeister/kafka:latest;
@@ -30,6 +31,7 @@ docker pull sonarqube:latest;
 # --- simple database management ---
 docker pull adminer:latest;
 docker pull mongo-express:latest;
+docker pull dpage/pgadmin4:latest;
 
 # --- swagger api documentation ---
 docker pull swaggerapi/swagger-editor:latest;
@@ -45,6 +47,7 @@ docker pull jaegertracing/all-in-one:latest;
 docker pull prom/prometheus:latest;
 docker pull grafana/grafana:latest;
 
+# --- message queue ---
 # docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
 # docker pull docker.elastic.co/kibana/kibana:7.5.1;
 # docker pull docker.elastic.co/logstash/logstash:7.5.1;
