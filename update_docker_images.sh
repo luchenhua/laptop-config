@@ -16,10 +16,10 @@ docker pull golang:1.15;
 docker pull maven:3-openjdk-11;
 
 # --- database ---
-docker pull postgres:12;
+docker pull postgres:13;
 docker pull redis:6;
-docker pull mongo:4;
-docker pull mysql:8;
+# docker pull mongo:4;
+# docker pull mysql:8;
 docker pull influxdb:1.8;
 
 # --- message queue ---
@@ -30,8 +30,8 @@ docker pull sonarqube:latest;
 
 # --- simple database management ---
 docker pull adminer:latest;
-docker pull mongo-express:latest;
-docker pull dpage/pgadmin4:latest;
+# docker pull mongo-express:latest;
+# docker pull dpage/pgadmin4:latest;
 
 # --- swagger api documentation ---
 docker pull swaggerapi/swagger-editor:latest;
