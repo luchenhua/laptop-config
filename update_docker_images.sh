@@ -44,17 +44,17 @@ docker pull adminer:latest;
 # --- docker registry server ---
 # docker pull registry:latest;
 
-# --- system tracing & monitoring ---
+# --- system logging, tracing & monitoring ---
 docker pull jaegertracing/all-in-one:latest;
 docker pull prom/prometheus:latest;
 docker pull grafana/grafana:latest;
-
-# --- message queue ---
-# docker pull wurstmeister/kafka:latest;
 # docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
 # docker pull docker.elastic.co/kibana/kibana:7.5.1;
 # docker pull docker.elastic.co/logstash/logstash:7.5.1;
 # docker pull docker.elastic.co/beats/filebeat:7.5.1;
+
+# --- message queue ---
+# docker pull wurstmeister/kafka:latest;
 
 # --- python data science ---
 # docker pull continuumio/anaconda3:latest;
