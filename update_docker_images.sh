@@ -22,6 +22,7 @@ docker pull maven:3-openjdk-11;
 docker pull postgres:13;
 docker pull redis:6;
 # docker pull mongo:4;
+# docker pull mysql:8;
 docker pull influxdb:1.8;
 
 # --- message queue ---
