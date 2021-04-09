@@ -7,7 +7,7 @@ docker pull gcr.io/distroless/java-debian10:11;
 
 # --- load balance & static website ---
 docker pull nginx:latest;
-docker pull klakegg/hugo:onbuild;
+docker pull klakegg/hugo:ext-onbuild;
 
 # --- service discovery ---
 docker pull gcr.io/etcd-development/etcd:latest;
@@ -15,7 +15,7 @@ docker pull gcr.io/etcd-development/etcd:latest;
 # docker pull zookeeper:latest;
 
 # --- programming language compiler ---
-docker pull golang:1.15;
+docker pull golang:1.16;
 docker pull maven:3-openjdk-11;
 
 # --- database ---
@@ -47,15 +47,12 @@ docker pull redis:6;
 
 # --- system logging, tracing & monitoring ---
 docker pull jaegertracing/all-in-one:latest;
-docker pull prom/prometheus:latest;
+# docker pull prom/prometheus:latest;
 # docker pull grafana/grafana:latest;
 # docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1;
 # docker pull docker.elastic.co/kibana/kibana:7.5.1;
 # docker pull docker.elastic.co/logstash/logstash:7.5.1;
 # docker pull docker.elastic.co/beats/filebeat:7.5.1;
-
-# --- message queue ---
-# docker pull wurstmeister/kafka:latest;
 
 # --- python data science ---
 # docker pull continuumio/anaconda3:latest;
