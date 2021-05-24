@@ -28,21 +28,19 @@ docker pull redis:6;
 # docker pull mongo:4;
 # docker pull mysql:8;
 docker pull influxdb:latest;
-docker pull pingcap/tidb:latest;
+# docker pull pingcap/tidb:latest;
 
 
 # --- message queue ---
-docker pull wurstmeister/kafka:latest;
-docker pull apachepulsar/pulsar:latest;
+# docker pull wurstmeister/kafka:latest;
+# docker pull apachepulsar/pulsar:latest;
 
 
 # --- system logging, tracing & monitoring ---
 docker pull jaegertracing/all-in-one:latest;
 
 docker pull prom/prometheus:latest;
-# docker pull prom/pushgateway:latest;
 
-# docker pull fluent/fluentd:latest;
 docker pull fluent/fluent-bit:latest;
 
 docker pull grafana/grafana:latest;
