@@ -1,20 +1,20 @@
 #!/bin/bash
 
-cd ~/dev/repo/work/message-hub && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-adapter && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-api && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-auth && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-batch && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-callback && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-core && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-documentation && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-filter && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-logging && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-logging-frontend && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-mock && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-poc && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-sender && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-subscription && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-sst && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
-cd ~/dev/repo/work/message-hub-template && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-adapter && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-api && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-auth && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-batch && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-callback && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-core && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-documentation && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-filter && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-logging && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-logging-frontend && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-mock && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-poc && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-sender && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-subscription && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-sst && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/message-hub-template && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~;
