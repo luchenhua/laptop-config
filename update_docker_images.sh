@@ -26,8 +26,7 @@ docker pull maven:3-openjdk-11;
 docker pull postgres:13;
 docker pull redis:6;
 # docker pull mongo:4;
-# docker pull mysql:8;
-docker pull influxdb:latest;
+# docker pull influxdb:latest;
 # docker pull pingcap/tidb:latest;
 
 
@@ -38,17 +37,14 @@ docker pull influxdb:latest;
 
 # --- system logging, tracing & monitoring ---
 docker pull jaegertracing/all-in-one:latest;
-
 docker pull prom/prometheus:latest;
-
 docker pull fluent/fluent-bit:latest;
-
 docker pull grafana/grafana:latest;
 docker pull grafana/loki:latest;
 
 
 # --- source code check ---
-# docker pull sonarqube:latest;
+docker pull sonarqube:latest;
 
 
 # --- simple database management ---
