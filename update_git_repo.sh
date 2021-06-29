@@ -17,4 +17,5 @@ cd ~/dev/repo/work/message-hub-sender && pwd && git fetch --all --prune && git c
 cd ~/dev/repo/work/message-hub-subscription && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~/dev/repo/work/message-hub-sst && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~/dev/repo/work/message-hub-template && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/msghub-be-wecom && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~;
