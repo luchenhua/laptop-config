@@ -52,7 +52,7 @@ docker pull grafana/loki:latest;
 
 
 # --- simple database management ---
-# docker pull adminer:latest;
+docker pull adminer:latest;
 # docker pull mongo-express:latest;
 # docker pull dpage/pgadmin4:latest;
 
