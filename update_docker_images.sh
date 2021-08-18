@@ -18,6 +18,7 @@ docker pull gcr.io/etcd-development/etcd:latest;
 
 
 # --- programming language compiler ---
+docker pull golang:1.17;
 docker pull golang:1.16;
 docker pull maven:3-openjdk-11;
 
