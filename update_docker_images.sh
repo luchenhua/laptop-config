@@ -12,9 +12,9 @@ docker pull klakegg/hugo:ext-onbuild;
 
 
 # --- service discovery ---
-docker pull gcr.io/etcd-development/etcd:latest;
-# docker pull consul:latest;
-# docker pull zookeeper:latest;
+docker pull bitnami/etcd:latest;
+# docker pull bitnami/consul:latest;
+docker pull bitnami/zookeeper:latest;
 
 
 # --- programming language compiler ---
@@ -32,7 +32,7 @@ docker pull redis:6;
 
 
 # --- message queue ---
-# docker pull wurstmeister/kafka:latest;
+docker pull bitnami/kafka:latest;
 # docker pull apachepulsar/pulsar:latest;
 
 

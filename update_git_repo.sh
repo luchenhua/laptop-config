@@ -21,4 +21,11 @@ cd ~/dev/repo/work/message-hub-template && pwd && git fetch --all --prune && git
 cd ~/dev/repo/work/msghub-be-subscription && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~/dev/repo/work/msghub-be-template && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
 cd ~/dev/repo/work/msghub-be-wecom && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+
+cd ~/dev/repo/work/k8s-mig-env && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/k8s-mig-validator && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/k8s-mig-kafka-consumer && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/k8s-mig-srv-go && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+cd ~/dev/repo/work/k8s-mig-srv-java && pwd && git fetch --all --prune && git checkout main && git pull && git checkout develop && git pull;
+
 cd ~;
