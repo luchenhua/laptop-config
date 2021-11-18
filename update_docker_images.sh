@@ -2,8 +2,8 @@
 
 # download & update all the images
 # --- base images ---
-docker pull gcr.io/distroless/static-debian10:latest;
-docker pull gcr.io/distroless/java-debian10:11;
+docker pull gcr.io/distroless/static-debian11:latest;
+docker pull gcr.io/distroless/java-debian11:11;
 
 
 # --- load balance & static website ---
@@ -23,11 +23,11 @@ docker pull maven:3-openjdk-11;
 
 
 # --- database ---
-docker pull postgres:13;
+docker pull postgres:14;
 docker pull redis:6;
-# docker pull mongo:4;
-# docker pull influxdb:latest;
-# docker pull pingcap/tidb:latest;
+docker pull mongo:5;
+docker pull influxdb:2;
+docker pull pingcap/tidb:5;
 
 
 # --- message queue ---
