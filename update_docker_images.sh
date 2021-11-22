@@ -25,14 +25,14 @@ docker pull maven:3-openjdk-11;
 # --- database ---
 docker pull postgres:14;
 docker pull redis:6;
-docker pull mongo:5;
-docker pull influxdb:2;
-docker pull pingcap/tidb:5;
+docker pull mongo:latest;
+docker pull influxdb:latest;
+docker pull pingcap/tidb:latest;
 
 
 # --- message queue ---
 docker pull bitnami/kafka:latest;
-# docker pull apachepulsar/pulsar:latest;
+docker pull apachepulsar/pulsar:latest;
 
 
 # --- system logging, tracing & monitoring ---
