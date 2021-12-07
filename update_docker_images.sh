@@ -8,7 +8,7 @@ docker pull gcr.io/distroless/java-debian11:11;
 
 # --- load balance & static website ---
 docker pull nginx:latest;
-docker pull klakegg/hugo:ext-onbuild;
+docker pull klakegg/hugo:ext;
 
 
 # --- service discovery ---
