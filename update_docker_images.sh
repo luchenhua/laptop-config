@@ -3,7 +3,8 @@
 # download & update all the images
 # --- base images ---
 docker pull gcr.io/distroless/static-debian11:latest;
-docker pull gcr.io/distroless/java-debian11:11;
+docker pull gcr.io/distroless/java11-debian11:latest;
+docker pull gcr.io/distroless/java17-debian11:latest;
 
 
 # --- load balance & static website ---
@@ -52,7 +53,7 @@ docker pull grafana/loki:latest;
 
 
 # --- simple database management ---
-docker pull adminer:latest;
+# docker pull adminer:latest;
 # docker pull mongo-express:latest;
 # docker pull dpage/pgadmin4:latest;
 
