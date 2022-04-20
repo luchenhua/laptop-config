@@ -37,15 +37,15 @@ docker pull apachepulsar/pulsar:latest;
 
 
 # --- system logging, tracing & monitoring ---
-docker pull jaegertracing/all-in-one:latest;
+# docker pull jaegertracing/all-in-one:latest;
 
-docker pull prom/prometheus:latest;
-docker pull prom/pushgateway:latest;
+# docker pull prom/prometheus:latest;
+# docker pull prom/pushgateway:latest;
 
-docker pull fluent/fluent-bit:latest;
+# docker pull fluent/fluent-bit:latest;
 
-docker pull grafana/grafana:latest;
-docker pull grafana/loki:latest;
+# docker pull grafana/grafana:latest;
+# docker pull grafana/loki:latest;
 
 
 # --- source code check ---
