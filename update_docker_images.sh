@@ -4,12 +4,12 @@
 # --- base images ---
 docker pull gcr.io/distroless/static-debian11:latest;
 docker pull gcr.io/distroless/java11-debian11:latest;
-docker pull gcr.io/distroless/java17-debian11:latest;
+# docker pull gcr.io/distroless/java17-debian11:latest;
 
 
 # --- load balance & static website ---
-docker pull nginx:latest;
-docker pull klakegg/hugo:ext;
+# docker pull nginx:latest;
+# docker pull klakegg/hugo:ext;
 
 
 # --- service discovery ---
@@ -26,9 +26,9 @@ docker pull maven:3-openjdk-11;
 # --- database ---
 docker pull postgres:14;
 docker pull redis:6;
-docker pull mongo:latest;
-docker pull influxdb:latest;
-docker pull pingcap/tidb:latest;
+# docker pull mongo:latest;
+# docker pull influxdb:latest;
+# docker pull pingcap/tidb:latest;
 
 
 # --- message queue ---
