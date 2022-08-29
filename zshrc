@@ -1,5 +1,5 @@
 # Install the antigen which is downloaded from GitHub.
-source ~/dev/repo/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -8,13 +8,9 @@ antigen use oh-my-zsh
 antigen bundle docker
 antigen bundle git
 antigen bundle git-flow
-antigen bundle github
-antigen bundle git-hubflow
 antigen bundle gitignore
-antigen bundle go
+antigen bundle golang
 antigen bundle macos
-antigen bundle tmux
-antigen bundle kubectl
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -39,3 +35,4 @@ alias ping="prettyping --nolegend"
 
 export LC_ALL=en_US.UTF-8
 # export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+

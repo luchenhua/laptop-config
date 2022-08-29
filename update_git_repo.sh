@@ -16,6 +16,7 @@ cd ~/dev/repo/work/message-hub-sender && pwd && git fetch --all --prune && git s
 cd ~/dev/repo/work/message-hub-subscription && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/message-hub-sst && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/message-hub-template && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-history && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/msghub-be-subscription && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/msghub-be-template && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
@@ -28,27 +29,21 @@ cd ~/dev/repo/work/message-hub-batch && pwd && git fetch --all --prune && git sw
 cd ~/dev/repo/work/msghub-be-wecom && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 # --- MsgHub frontend services ---
-cd ~/dev/repo/work/message-hub-logging-frontend && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-cd ~/dev/repo/work/message-hub-template-editor && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/message-hub-logging-frontend && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/message-hub-template-editor && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 # --- MsgHub docs ---
-cd ~/dev/repo/work/message-hub-documentation && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/message-hub-documentation && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/msghub-doc && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-
-# --- MsgHub K8S migration ---
-cd ~/dev/repo/work/k8s-mig-env && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-cd ~/dev/repo/work/k8s-mig-validator && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-cd ~/dev/repo/work/k8s-mig-kafka-consumer && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-cd ~/dev/repo/work/k8s-mig-srv-go && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 # --- MsgHub K8S config ---
 cd ~/dev/repo/work/K8S-APP-REPO-messageHub-FLUX && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 # --- WeChat GA data ---
-cd ~/dev/repo/work/wechat-ga-bigquery-export && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
-cd ~/dev/repo/work/wechat-ga-storage-transfer && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/wechat-ga-bigquery-export && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/wechat-ga-storage-transfer && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 # --- Lien FTP ---
-cd ~/dev/repo/work/lien_ftp && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# cd ~/dev/repo/work/lien_ftp && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
 cd ~;
