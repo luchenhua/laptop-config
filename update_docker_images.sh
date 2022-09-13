@@ -5,18 +5,19 @@
 docker pull gcr.io/distroless/static-debian11:latest;
 docker pull gcr.io/distroless/base-debian11:latest
 docker pull gcr.io/distroless/java11-debian11:latest;
-# docker pull gcr.io/distroless/java17-debian11:latest;
+docker pull gcr.io/distroless/java17-debian11:latest;
 
 
 # --- load balance & static website ---
 # docker pull nginx:latest;
+# docker pull traefik:latest;
 # docker pull klakegg/hugo:ext;
 
 
 # --- service discovery ---
 docker pull bitnami/etcd:latest;
 # docker pull bitnami/consul:latest;
-docker pull bitnami/zookeeper:latest;
+# docker pull bitnami/zookeeper:latest;
 
 
 # --- programming language compiler ---
@@ -27,7 +28,7 @@ docker pull maven:3-openjdk-11;
 
 # --- database ---
 docker pull postgres:14;
-docker pull redis:6;
+docker pull redis:7;
 # docker pull mongo:latest;
 # docker pull influxdb:latest;
 # docker pull pingcap/tidb:latest;
@@ -42,7 +43,7 @@ docker pull apachepulsar/pulsar:latest;
 # docker pull jaegertracing/all-in-one:latest;
 # docker pull prom/prometheus:latest;
 # docker pull prom/pushgateway:latest;
-# docker pull fluent/fluent-bit:latest;
+docker pull fluent/fluent-bit:latest;
 # docker pull grafana/grafana:latest;
 # docker pull grafana/loki:latest;
 
