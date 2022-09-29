@@ -11,13 +11,13 @@ docker pull gcr.io/distroless/java17-debian11:latest;
 # --- load balance & static website ---
 # docker pull nginx:latest;
 # docker pull traefik:latest;
-# docker pull klakegg/hugo:ext;
+docker pull klakegg/hugo:ext;
 
 
 # --- service discovery ---
 docker pull bitnami/etcd:latest;
 # docker pull bitnami/consul:latest;
-# docker pull bitnami/zookeeper:latest;
+docker pull bitnami/zookeeper:latest;
 
 
 # --- programming language compiler ---
