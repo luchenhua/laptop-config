@@ -4,7 +4,7 @@
 # --- base images ---
 docker pull gcr.io/distroless/static-debian11:latest;
 docker pull gcr.io/distroless/base-debian11:latest
-docker pull gcr.io/distroless/java11-debian11:latest;
+# docker pull gcr.io/distroless/java11-debian11:latest;
 docker pull gcr.io/distroless/java17-debian11:latest;
 
 
@@ -21,7 +21,6 @@ docker pull bitnami/zookeeper:latest;
 
 
 # --- programming language compiler ---
-docker pull golang:1.17.5;
 docker pull golang:1.19;
 docker pull maven:3-openjdk-11;
 
