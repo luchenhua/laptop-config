@@ -26,7 +26,7 @@ docker pull maven:3-openjdk-11;
 
 
 # --- database ---
-docker pull postgres:14;
+docker pull postgres:15;
 docker pull redis:7;
 # docker pull mongo:latest;
 # docker pull influxdb:latest;
