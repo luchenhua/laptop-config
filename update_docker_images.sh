@@ -3,7 +3,7 @@
 # download & update all the images
 # --- base images ---
 docker pull gcr.io/distroless/static-debian11:latest;
-docker pull gcr.io/distroless/base-debian11:latest
+# docker pull gcr.io/distroless/base-debian11:latest
 # docker pull gcr.io/distroless/java11-debian11:latest;
 docker pull gcr.io/distroless/java17-debian11:latest;
 
