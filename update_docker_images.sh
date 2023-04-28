@@ -22,7 +22,7 @@ docker pull bitnami/zookeeper:latest;
 
 # --- programming language compiler ---
 docker pull golang:1.20;
-docker pull golang:1.19;
+# docker pull golang:1.19;
 docker pull maven:3-openjdk-17;
 
 
