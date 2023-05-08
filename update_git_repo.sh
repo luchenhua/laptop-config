@@ -20,6 +20,16 @@ cd ~/dev/repo/work/msghub-be-history && pwd && git fetch --all --prune && git sw
 cd ~/dev/repo/work/msghub-be-subscription && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 cd ~/dev/repo/work/msghub-be-template && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
+cd ~/dev/repo/work/msghub-be-adapter-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-biz-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-mq-cdp-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-history-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-sender-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-subscription-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-template-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-be-token-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+cd ~/dev/repo/work/msghub-mq-stock-java && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+
 # --- MsgHub mock service ---
 cd ~/dev/repo/work/message-hub-mock && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
