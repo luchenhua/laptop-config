@@ -22,13 +22,13 @@ docker pull bitnami/zookeeper:latest;
 
 # --- programming language compiler ---
 docker pull golang:1.20;
-# docker pull golang:1.19;
+docker pull golang:1.19;
 docker pull maven:3-openjdk-17;
 
 
 # --- database ---
-docker pull postgres:15;
-docker pull redis:7;
+docker pull postgres:latest;
+docker pull redis:latest;
 # docker pull mongo:latest;
 # docker pull influxdb:latest;
 # docker pull pingcap/tidb:latest;
@@ -53,7 +53,7 @@ docker pull fluent/fluent-bit:latest;
 
 
 # --- simple database management ---
-docker pull adminer:latest;
+# docker pull adminer:latest;
 # docker pull mongo-express:latest;
 # docker pull dpage/pgadmin4:latest;
 docker pull provectuslabs/kafka-ui:latest
