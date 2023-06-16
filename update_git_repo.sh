@@ -53,7 +53,7 @@ cd ~/dev/repo/work/K8S-APP-REPO-messageHub-FLUX && pwd && git fetch --all --prun
 # cd ~/dev/repo/work/wechat-ga-bigquery-export && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 # cd ~/dev/repo/work/wechat-ga-storage-transfer && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
 
-# --- Lien FTP ---
-# cd ~/dev/repo/work/lien_ftp && pwd && git fetch --all --prune && git switch main && git pull && git switch develop && git pull;
+# --- private repos ---
+cd ~/dev/repo/private/conference && pwd && git fetch --all --prune && git pull;
 
 cd ~;
