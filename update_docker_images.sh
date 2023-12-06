@@ -14,9 +14,9 @@ docker pull klakegg/hugo:ext;
 
 
 # --- service discovery ---
-docker pull bitnami/etcd:latest;
+# docker pull bitnami/etcd:latest;
 # docker pull bitnami/consul:latest;
-docker pull bitnami/zookeeper:latest;
+# docker pull bitnami/zookeeper:latest;
 
 
 # --- programming language compiler ---
@@ -40,7 +40,7 @@ docker pull apachepulsar/pulsar:latest;
 # --- system logging, tracing & monitoring ---
 # docker pull jaegertracing/all-in-one:latest;
 # docker pull prom/prometheus:latest;
-docker pull fluent/fluent-bit:latest;
+# docker pull fluent/fluent-bit:latest;
 # docker pull grafana/grafana:latest;
 # docker pull grafana/loki:latest;
 
