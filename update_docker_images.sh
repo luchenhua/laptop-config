@@ -20,7 +20,7 @@ docker pull klakegg/hugo:ext;
 
 
 # --- programming language compiler ---
-docker pull golang:1.21;
+docker pull golang:1.22;
 docker pull maven:3-openjdk-17;
 
 
