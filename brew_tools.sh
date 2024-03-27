@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew install antigen;
+brew install antidote;
 brew install curl;
 brew install git;
 brew install vim;
@@ -12,9 +12,8 @@ brew install lua;
 brew install perl;
 brew install python;
 brew install ruby;
-
+brew install rust;
 brew install openjdk && sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk;
-
 brew install gradle;
 brew install maven;
 
@@ -23,6 +22,10 @@ brew install google-java-format;
 
 brew install grpc;
 brew install protobuf;
+
+brew install docker;
+brew install docker-compose;
+brew install colima;
 
 brew install k6;
 
@@ -36,5 +39,5 @@ brew install prettyping;
 brew install tldr;
 brew install tree;
 brew install webp;
+brew install hugo;
 
-brew cask install iterm2;
